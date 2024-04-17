@@ -1,0 +1,91 @@
+.login{
+    width:100%;
+    height:100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-panel{
+    height:477.11px;
+    width:430px;
+    /* background-color: blue; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.admin-login{
+    height:83.422px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+
+.admin-image{
+height:143.422px;
+/* background-color: green; */
+display: flex;
+justify-content: center;
+
+}
+
+.image{
+    height:143.422px;
+    width:143.422px;
+    border-radius: 50%;
+    /* background-color: brown; */
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.admin-input{
+height:83.422px;
+/* background-color: green; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.admin-input input{
+    height:42%;
+    width:330px;
+    border-radius: 3px;
+    outline: none;
+    font-size: 18px;
+}
+
+.admin-input input:focus{
+    outline: none;
+}
+
+.login-btn{
+height:83.422px;
+/* background-color: green; */
+display: flex;
+justify-content: center;
+/* align-items: center; */
+}
+
+.login-btn button{
+    margin-top: 10px;
+    width:180px;
+    height: 55%;
+    background-color:rgb(234, 198, 150);
+    border: none;
+    border-radius: 3px;
+    font-size: 27px;
+    font-weight: 700;
+    color:rgb(101, 69, 31);
+    cursor:pointer;
+}
